@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    color: blue;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+}
+
+html {
+    font-size: 62.5%; //10px
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+p:first-child {
+    padding-top: 1rem;
+}
+
+.up-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-settings {
+    color: black;
+}
+
+.account-settings {
+    background-color: #886F65;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-menu ul {
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid gray;
+}
+
+.down-menu ul li {
+    padding: 1rem;
+}
+
+ol li {
+    list-style: decimal;
+    list-style-position: inside;
+}
+
+ol li ol li {
+    list-style: lower-alpha;
+    list-style-position: inside;
+}

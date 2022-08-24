@@ -154,12 +154,14 @@
         <?php
         foreach ($faqs as $key => $faq) {
         ?>
+        <section>
             <h2>
                 <?php echo $faq['question']; ?>
             </h2>
             <p>
                 <?php echo $faq['answer']; ?>
             </p>
+        </section>
         <?php
 
         }

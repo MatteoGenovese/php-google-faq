@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-.active {
-    color: blue;
-    font-weight: bold;
-    border-bottom: 3px solid blue;
-}
-
 html {
     font-size: 62.5%; //10px
 }
@@ -19,6 +13,26 @@ main {
     margin: 0 auto;
 }
 
+header {
+    padding: 1rem;
+    padding-bottom: 0;
+    border-bottom: 1px solid gray;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.active {
+    color: blue;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+}
+
 a:link,
 a:visited {
     text-decoration: none;
@@ -26,7 +40,13 @@ a:visited {
 }
 
 p {
-    padding-bottom: 1rem;
+    padding-bottom: 1.6rem;
+    line-height: 2.4rem;
+}
+
+p,
+li {
+    font-size: 1.4rem;
 }
 
 p:first-child {
@@ -38,8 +58,14 @@ p:first-child {
     justify-content: space-between;
 }
 
+section {
+    margin-top: 10rem;
+}
+
 .account-settings {
     color: black;
+    font-size: 2rem;
+    color: white;
 }
 
 .account-settings {
@@ -55,11 +81,16 @@ p:first-child {
 .down-menu ul {
     display: flex;
     list-style: none;
-    border-bottom: 1px solid gray;
 }
 
 .down-menu ul li {
-    padding: 1rem;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+
+.down-menu ul li:not(:first-child) {
+    padding: 1rem 0;
+    padding-left: 1rem;
 }
 
 ol li {

@@ -146,7 +146,7 @@
                 <li>
                     Tecnologie
                 </li>
-                <li class="active">
+                <li class="down_menu--active-li">
                     Domande frequenti
                 </li>
             </ul>

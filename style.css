@@ -12,28 +12,20 @@ body {
     font-family: 'Roboto Flex', sans-serif;
 }
 
+header {
+    padding: 1rem;
+    padding-bottom: 0;
+    border-bottom: 1px solid gray;
+}
+
 main {
     width: 1000px;
     margin: 0 auto;
     padding-top: 6rem;
 }
 
-ol {
-    padding-left: 2rem;
-}
-
-ol ol {
-    padding-left: 2rem;
-}
-
-ol li {
-    line-height: 2rem;
-}
-
-header {
-    padding: 1rem;
-    padding-bottom: 0;
-    border-bottom: 1px solid gray;
+section {
+    margin-top: 3rem;
 }
 
 h2 {
@@ -44,18 +36,6 @@ h2 {
 h3 {
     font-size: 2rem;
     font-weight: 600;
-}
-
-.active {
-    color: blue;
-    font-weight: bold;
-    border-bottom: 3px solid blue;
-}
-
-a:link,
-a:visited {
-    text-decoration: none;
-    color: blue;
 }
 
 p {
@@ -73,22 +53,36 @@ p:first-child {
     padding-top: 1rem;
 }
 
+ol,
+ol ol {
+    padding-left: 2rem;
+}
+
+ol li {
+    line-height: 2rem;
+}
+
+.down_menu--active-li {
+    color: blue;
+    font-weight: bold;
+    border-bottom: 3px solid blue;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
 .up-menu {
     display: flex;
     justify-content: space-between;
-}
-
-section {
-    margin-top: 3rem;
 }
 
 .account-settings {
     color: black;
     font-size: 2rem;
     color: white;
-}
-
-.account-settings {
     background-color: #886F65;
     width: 32px;
     height: 32px;

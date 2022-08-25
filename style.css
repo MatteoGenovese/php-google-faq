@@ -19,11 +19,15 @@ main {
 }
 
 ol {
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 
 ol ol {
-    padding-left: 1rem;
+    padding-left: 2rem;
+}
+
+ol li {
+    line-height: 2rem;
 }
 
 header {

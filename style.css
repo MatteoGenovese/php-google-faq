@@ -28,14 +28,18 @@ section {
     margin-top: 3rem;
 }
 
+h2,
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
 h2 {
     font-size: 2.4rem;
-    font-weight: 600;
 }
 
 h3 {
     font-size: 2rem;
-    font-weight: 600;
 }
 
 p {
@@ -107,12 +111,14 @@ a:visited {
     padding-left: 1rem;
 }
 
+li {
+    list-style-position: inside;
+}
+
 ol li {
     list-style: decimal;
-    list-style-position: inside;
 }
 
 ol li ol li {
     list-style: lower-alpha;
-    list-style-position: inside;
 }

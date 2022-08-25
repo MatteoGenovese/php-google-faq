@@ -5,13 +5,25 @@
 }
 
 html {
-    font-size: 62.5%; //10px
+    font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 main {
     width: 1000px;
     margin: 0 auto;
     padding-top: 6rem;
+}
+
+ol {
+    padding-left: 1rem;
+}
+
+ol ol {
+    padding-left: 1rem;
 }
 
 header {
